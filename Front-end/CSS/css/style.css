@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+html * {
+    margin: 50;
+}
+
+body{
+/*centralizar textos*/
+    text-align: center;
+    /*colocar imagens https://bit.ly/3g7ht7X*/
+    background-image: url(https://encurtador.com.br/aMR18);
+    /*remover repetição*/
+    background-repeat: repeat;
+    /*posicionamento*/
+    background-position: center center;
+    /*altura do body*/
+    height: 100vh;
+    /* tamanhoda imagem*/
+    background-size: 500px;
+    /*ficar a imagem de fundo*/
+    background-attachment: fixed;
+    /*imagem de fundo cor*/
+    background-color: #000000;
+}
+
+#cabecalho {
+    height: 20vh;
+    /*background-image: url(https://www.stoodi.com.br/wp-content/uploads/2020/09/fases-da-lua-2.png);*/
+    color:#ffffff;
+    line-height: 200px;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 50px;
+}
+
+#conteudo {
+    height: 60vh;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color:#ffffff;
+    text-align: center;
+}
+/*div {
+    width: 500px;
+    height: 500px; 
+    text-align: center;  
+}*/
+#div1 {
+    background-color: rgba(186, 69, 186, 0.269); 
+    width: 500px;
+    height: 500px; 
+    text-align: center;  
+    display: inline-block;   
+}
+#div2 {
+    background-color: rgba(186, 69, 186, 0.269); 
+    width: 500px;
+    height: 500px; 
+    text-align: center;
+    display: inline-block; 
+}
+
+#rodape {
+    height: 20vh;
+    font-family: 'Viaoda Libre', cursive;
+    color:ivory;
+    font-size: 20px;
+    
+}
+
+.icones {
+    width: 100px;
+}
